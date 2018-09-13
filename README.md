@@ -1,5 +1,10 @@
 # My personal bookmarklets
 
+## TYPO3 Plugin list_type
+```javascript
+javascript:(function(){alert(document.getElementById('typo3-contentIframe').contentWindow.document.body.querySelector("[name*='list_type'] > option:checked").value)})()
+```
+
 ## Instagram image download
 ```javascript
 javascript:(function(){window.open(document.querySelector('html > body > div > div > div > div > article > div > div > div > div > img').src,'_blank');})();
