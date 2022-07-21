@@ -2,7 +2,7 @@
 
 ## TYPO3 Plugin list_type
 ```javascript
-javascript:(function(){alert(document.getElementById('typo3-contentIframe').contentWindow.document.body.querySelector("[name*='list_type'] > option:checked").value);})()
+javascript:(function(){alert(document.querySelector('#typo3-contentIframe').contentWindow.document.body.querySelector("select[name*='list_type']").value);})()
 ```
 
 ## Instagram image download
